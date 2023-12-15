@@ -85,7 +85,7 @@ ul {
 
   border-radius: 50%;
 
-  background-color: tomato;
+  background-color: green;
   display: block;
   margin: 0 auto;
 }
@@ -101,7 +101,7 @@ ul {
   transform: translateX(-100%);
   transition: 1000ms linear;
 
-  background-color: blue;
+  background-color: pink;
 
 }
 
