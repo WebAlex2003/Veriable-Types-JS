@@ -155,3 +155,21 @@ switch (state) {
 
 console.log(value);
 
+// Task 5
+const totalSpent = 5050;
+let payment = 1000;
+let discount = 0;
+
+if (totalSpent < 100) [console.log("Не партнер")];
+else if (totalSpent >= 100 && totalSpent < 1000) {
+  console.log("Бронзовый партнер, скидка 2%");
+  discount = 0.02;
+} else if (totalSpent >= 1000 && totalSpent <= 5000) {
+  console.log("Серебренный партнер, скидка 5%");
+  discount = 0.05;
+} else if (totalSpent > 5000) {
+  console.log("Золотой партнер, скидка 10%");
+  discount = 0.1;
+}
+
+console.log(`Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}`);

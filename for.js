@@ -30,8 +30,8 @@ for (let f = 80; f > 40; f -= 3) {
 }
 
 // from 100 to 500 with interval 1
-for(let g = 100; 500 > g; g += 1) {
-  console.log(g)
+for (let g = 100; 500 > g; g += 1) {
+  console.log(g);
 }
 
 // Task 1
@@ -75,3 +75,15 @@ for (let i = min; max >= i; i += 1) {
 }
 
 console.log("Total amount: ", totalAmount);
+
+// Task 3
+
+const balance = 10000;
+let payment = 2000;
+
+if (payment < balance) {
+  console.log("положительный баланс");
+} else if (payment > balance) {
+  console.log("отрицательный баланс");
+}
+
