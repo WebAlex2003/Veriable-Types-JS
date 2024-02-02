@@ -34,6 +34,13 @@ if (10 > 11) {
   console.log("b > m");
 }
 
+// Тернарный оператор
+const z = 20;
+const y = 10;
+let resoult = (z > y) ? 'Правда' : 'Ложь';
+
+console.log(resoult);
+
 // Task 1
 // Вывести сообщения с помощью if
 

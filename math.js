@@ -33,3 +33,25 @@ const max = 100;
 const effect = Math.round(Math.random() * (max - min) + min);
 
 console.log(effect);
+
+// task 2 
+const firstNumber = 20;
+const secondNumber = 30;
+let total = firstNumber / secondNumber;
+
+console.log(total);
+
+// Task 3
+const item = 10;
+const secondPower = 2;
+let secTotal = item ** secondPower;
+
+console.log(secTotal);
+
+// Тернарный оператор 
+
+const x = 20;
+const y = 10;
+let resoult = (x > y) ? 'Правда' : 'Ложь';
+
+console.log(resoult);
