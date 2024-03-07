@@ -35,17 +35,17 @@
 
 // Practise метод Array.from, который создает новый экземпляр массива
 
-// const function1 = function () {
-//   console.log(arguments);
+const function1 = function () {
+  console.log(arguments);
 
-//   const arrg = Array.from(arguments);
+  const arrg = Array.from(arguments);
 
-//   console.log(arrg);
-// };
+  console.log(arrg);
+};
 
-// function1(1, 2, 3, 4, 5, 6);
-// function1(1, 2, 3, 4, 5);
-// function1(1, 2, 3, 4);
+function1(1, 2, 3, 4, 5, 6);
+function1(1, 2, 3, 4, 5);
+function1(1, 2, 3, 4);
 
 // practise with meth method ... rest
 
@@ -84,20 +84,20 @@
 - Функция должна вернуть новый массив, в котором будут только те аргументы начиная со второго
 для которого есть аналог в оригинальном массиве. */
 
-const filterNumbers = function (array1, ...numbers) {
-  console.log("arguments:", numbers);
-  console.log("array:", array1);
-  const uniqueElement = [];
+// const filterNumbers = function (array1, ...numbers) {
+//   console.log("arguments:", numbers);
+//   console.log("array:", array1);
+//   const uniqueElement = [];
 
-  for (const array of array1) {
-    if (numbers.includes(array)) {
-      uniqueElement.push(array);
-      console.log(`${array} есть везде`);
-    }
-  }
-  console.log(uniqueElement);
-};
+//   for (const array of array1) {
+//     if (numbers.includes(array)) {
+//       uniqueElement.push(array);
+//       console.log(`${array} есть везде`);
+//     }
+//   }
+//   console.log(uniqueElement);
+// };
 
-filterNumbers([11, 2, 31, 4, 51], 1, 2, 3, 4, 5);
-filterNumbers([11, 2, 31, 4, 51], 1, 2, 3, 4, 5);
-filterNumbers([11, 2, 31, 4, 51], 1, 2, 3, 4, 5);
+// filterNumbers([11, 2, 31, 4, 51], 1, 2, 3, 4, 5);
+// filterNumbers([11, 2, 31, 4, 51], 1, 2, 3, 4, 5);
+// filterNumbers([11, 2, 31, 4, 51], 1, 2, 3, 4, 5);

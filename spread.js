@@ -47,33 +47,33 @@
 
 /* Современный стандарт распыления обьекта */
 
-const a = { math: 3, PI: 4 };
-const b = { biology: 5, sience: 3 };
+// const a = { math: 3, PI: 4 };
+// const b = { biology: 5, sience: 3 };
 
-const disciplines = {
-  ...a,
-  ...b,
-};
+// const disciplines = {
+//   ...a,
+//   ...b,
+// };
 
-console.log(disciplines);
+// console.log(disciplines);
 
 /* Переписываем базовые значения при настройке профиля с помощью Spread*/
 
-const defaultSettings = {
-  theme: "light",
-  userName: "user2000",
-  age: 0,
-};
+// const defaultSettings = {
+//   theme: "light",
+//   userName: "user2000",
+//   age: 0,
+// };
 
-const userSetting = {
-  theme: "black",
-  userName: "WebAlex2003",
-  age: 20,
-};
+// const userSetting = {
+//   theme: "black",
+//   userName: "WebAlex2003",
+//   age: 20,
+// };
 
-const finalSetting = {
-  ...defaultSettings,
-  ...userSetting,
-};
+// const finalSetting = {
+//   ...defaultSettings,
+//   ...userSetting,
+// };
 
-console.log(finalSetting);
+// console.log(finalSetting);

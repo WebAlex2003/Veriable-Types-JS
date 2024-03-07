@@ -79,29 +79,29 @@
 
 // Практика стека вызовов
 
-// const functionA = function () {
-//   console.log("Выполняется функция A");
+const functionA = function () {
+  console.log("Выполняется функция A");
 
-//   functionB();
-// };
-// const functionB = function () {
-//   console.log("Выполняется функция B");
+  functionB();
+};
+const functionB = function () {
+  console.log("Выполняется функция B");
 
-//   functionC();
-// };
-// const functionC = function () {
-//   console.log("Выполняется функция C");
-// };
+  functionC();
+};
+const functionC = function () {
+  console.log("Выполняется функция C");
+};
 
-// functionA();
+functionA();
 
 // function practise
 
-// const fn = function (a, b, c) {
-//   console.log("Math operation");
+const fn = function (a, b, c) {
+  console.log("Math operation");
 
-//   let resoult = a + b + c ** 2 - 900;
-//   console.log(resoult);
-// };
+  let resoult = a + b + c ** 2 - 900;
+  console.log(resoult);
+};
 
-// fn(20, 30, 30);
+fn(20, 30, 30);

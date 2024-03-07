@@ -98,26 +98,26 @@
 // console.table(numbers);
 
 // Task 6 добавь элементы в массив
-const names = ["Mike", "Richard", "Alex", "Ann"];
-const desiredName = "Richard";
+// const names = ["Mike", "Richard", "Alex", "Ann"];
+// const desiredName = "Richard";
 
-const index = names.indexOf(desiredName);
+// const index = names.indexOf(desiredName);
 
-console.log(index);
+// console.log(index);
 
-names.splice(index, 0, "Brayan", "Mark");
+// names.splice(index, 0, "Brayan", "Mark");
 
-console.table(names);
+// console.table(names);
 
 // Task 7 Замени элемент массива один на другой
 
-const numbers = [1, 2, 3, 4, 5];
-const desiredNumber = 3;
+// const numbers = [1, 2, 3, 4, 5];
+// const desiredNumber = 3;
 
-const index1 = numbers.indexOf(desiredNumber);
+// const index1 = numbers.indexOf(desiredNumber);
 
-console.log(index1);
+// console.log(index1);
 
-numbers.splice(index1, 3, 5, 6, 7);
+// numbers.splice(index1, 3, 5, 6, 7);
 
-console.table(numbers);
+// console.table(numbers);

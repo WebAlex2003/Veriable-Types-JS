@@ -133,27 +133,27 @@
 
 /* Выведи в консоль друзей которые онлайн */
 
-const friends = [
-  { name: "Mango", online: false },
-  { name: "Poly", online: true },
-  { name: "Ajax", online: true },
-  { name: "Kivi", online: false },
-];
+// const friends = [
+//   { name: "Mango", online: false },
+//   { name: "Poly", online: true },
+//   { name: "Ajax", online: true },
+//   { name: "Kivi", online: false },
+// ];
 
-const onlineFriends = function (allFriends) {
-  const onlineFriend = [];
+// const onlineFriends = function (allFriends) {
+//   const onlineFriend = [];
 
-  for (const friend of allFriends) {
-    console.log(friend.online);
+//   for (const friend of allFriends) {
+//     console.log(friend.online);
 
-    if (friend.online === true){
-      onlineFriend.push(friend);
-    }
-  }
-  return onlineFriend;
-};
+//     if (friend.online === true){
+//       onlineFriend.push(friend);
+//     }
+//   }
+//   return onlineFriend;
+// };
 
-console.log(onlineFriends(friends));
+// console.log(onlineFriends(friends));
 
 
 

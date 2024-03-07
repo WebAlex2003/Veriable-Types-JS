@@ -157,3 +157,36 @@ const simpleFunction = function (arg) {
 };
 
 simpleFunction(setOfInformation);
+
+// let price;
+
+// function getSubscriptionPrice(type) {
+//   switch (type) {
+//     case "professional":
+//       price = 20;
+//       break;
+
+//     case "organization":
+//       price = 50;
+//       break;
+
+//     case "starter":
+//       price = 0;
+//       break;
+
+//     default: {
+//       console.log("Invalid subscription type!");
+//     }
+//   }
+
+//   console.log(type, price);
+// }
+
+// getSubscriptionPrice("professional");
+// getSubscriptionPrice("organization");
+// getSubscriptionPrice("starter");
+// getSubscriptionPrice("random");
+// getSubscriptionPrice("premium");
+
+ 
+

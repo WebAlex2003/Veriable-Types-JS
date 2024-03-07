@@ -27,6 +27,7 @@
 // ];
 
 // console.log(friends);
+
 // const findfriendByName = function (allFriends, name) {
 //   for (const friend of allFriends) {
 //     console.log(friend.name);
@@ -139,3 +140,51 @@
 // };
 
 // console.log(friendFunction(friends));
+
+/* ищем друга по имени с помощью функции */
+
+// const firstObject = [
+//   { name: "Alex", online: true },
+//   { name: "Mike", online: false },
+//   { name: "Oleg", online: false },
+//   { name: "Andrey", online: true },
+// ];
+
+// const onlineFriends = function (friends, friendsOnline) {
+//   let message = `This is what we found ${friendsOnline}`;
+
+//   for (const friend of friends) {
+//     console.log(friend.name);
+
+//     if (friend.name === friendsOnline) {
+//       return message;
+//     }
+//   }
+// };
+
+// console.log(onlineFriends(firstObject, "Alex"));
+// console.log(onlineFriends(firstObject, "Oleg"));
+
+/* Выведи в консоль тех друзей которые онлайн */
+
+const firstObject = [
+  { name: "Alex", online: true },
+  { name: "Mike", online: false },
+  { name: "Oleg", online: false },
+  { name: "Andrey", online: true },
+];
+
+const onlineFriends = function (friends, friendsOnline) {
+  for (const friend of friends) {
+    console.log(friend.name);
+    console.log(friend.online);
+  }
+
+  if (friends.online === friendsOnline) {
+  }
+
+  return `this friends ${friendsOnline} are online`;
+};
+
+console.log(onlineFriends(firstObject, "Alex"));
+console.log(onlineFriends(firstObject, "Oleg"));

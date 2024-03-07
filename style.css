@@ -83,7 +83,7 @@ ul {
   width: 500px;
   height: 500px;
 
-  border-radius: 50%;
+  /* border-radius: 50%; */
 
   background-color: green;
   display: block;
@@ -102,7 +102,6 @@ ul {
   transition: 1000ms linear;
 
   background-color: pink;
-
 }
 
 .main-box:hover .overlay {

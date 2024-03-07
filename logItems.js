@@ -14,15 +14,15 @@
 - если логина нет, вывести сообщение пользователь [логин] не найден
 - если нашли логин вывести сообщение пользователь [логин] найден */
 
-// const logins = ["WebAlex2003", "Alexe2003", "OlegKoltavski", "lesha30032003"];
-// const loginToFind = "lesha30032003";
-// let message = "";
+const logins = ["WebAlex2003", "Alexe2003", "OlegKoltavski", "lesha30032003"];
+const loginToFind = "lesha30032003";
+let message = "";
 
-// const general = logins.includes(loginToFind)
-//   ? `login ${loginToFind} was found`
-//   : `login ${loginToFind} wasnt found`;
+const general = logins.includes(loginToFind)
+  ? `login ${loginToFind} was found`
+  : `login ${loginToFind} wasnt found`;
 
-//   console.log(general); 
+  console.log(general); 
 
 // Task 1
 
@@ -50,17 +50,17 @@
 - если логина нет, вывести сообщение пользователь [логин] не найден
 - если нашли логин вывести сообщение пользователь [логин] найден */
 
-// const names = ["WebAlex2003", "Alexe2003", "OlegKoltavski", "lesha30032003"];
+const names = ["WebAlex2003", "Alexe2003", "OlegKoltavski", "lesha30032003"];
 
-// const findFunction = function (allLogins, loginToFind) {
-//   let resoult = allLogins.includes(loginToFind)
-//     ? `логин ${loginToFind} найден`
-//     : `логин ${loginToFind} не найден`;
+const findFunction = function (allLogins, loginToFind) {
+  let resoult = allLogins.includes(loginToFind)
+    ? `логин ${loginToFind} найден`
+    : `логин ${loginToFind} не найден`;
 
-//     return resoult;
-// };
+    return resoult;
+};
 
-// console.log(findFunction(names, "WebAlex2003"));
-// console.log(findFunction(names, "Alexe2003"));
-// console.log(findFunction(names, "OlegKoltavskiy"));
-// console.log(findFunction(names, "lesha300320032"));
+console.log(findFunction(names, "WebAlex2003"));
+console.log(findFunction(names, "Alexe2003"));
+console.log(findFunction(names, "OlegKoltavskiy"));
+console.log(findFunction(names, "lesha300320032"));

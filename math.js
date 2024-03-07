@@ -51,7 +51,7 @@ console.log(secTotal);
 // Тернарный оператор 
 
 const x = 20;
-const y = 10;
+const y = 30;
 let resoult = (x > y) ? 'Правда' : 'Ложь';
 
 console.log(resoult);
